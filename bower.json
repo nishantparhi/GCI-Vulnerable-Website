@@ -1,0 +1,8 @@
+{
+  "name": "xss",
+  "description": "xss",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

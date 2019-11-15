@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Execute XSS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img size="10" src="images/avatar.jpg" alt="" /></span>
+							<h1>FIND XSS</h1>
+							<p>XSS Vulnerability Task for Google code In</p>
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="/vulnerability/blacklist/" class="fas fa-code"></a></li>
+								<li><a href="/vulnerability/classic/" class="fas fa-code"></a></li>
+								<li><a href="/vulnerability/localstorage/" class="fas fa-code"></a></li>
+                                <li><a href="/vulnerability/post-data/" class="fas fa-code"></a></li>
+                                <li><a href="/vulnerability/prompt-pass/" class="fas fa-code"></a></li>
+
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>Google Code in Task by nishant parhi</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+
+	</body>
+</html>

